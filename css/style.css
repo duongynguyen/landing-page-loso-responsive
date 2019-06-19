@@ -14,6 +14,38 @@ p {
   line-height: 21px;
 }
 
+/* ===================== Generic CSS ===================== */
+.section-title {
+  text-align: center;
+  padding: 90px 0px 50px;
+  color: #333;
+}
+
+.section-title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  height: 1px;
+  width: 60px;
+  background-color: #129CF3;
+  margin-left: -30px;
+  left: 50%;
+}
+
+.section-title p {
+  margin-top: 45px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
 /* =============== Hearder ============== */
 .header {
   background-image: url("../images/header-bg.jpg");
@@ -30,7 +62,7 @@ p {
   background-color:rgba(31, 31, 31, 0.75);
 }
 
-.logo.text-center {
+.logo.text-center { 
   padding-bottom: 50px;
 }
 
@@ -107,4 +139,70 @@ p {
 
 .header-iphone img {
   width: 100%;
+}
+
+/* ============= About Us ============== */
+.choose-us-wrapper {
+  padding-top: 50px;
+}
+
+.about-iphone img {
+  margin-top: 8px;
+}
+
+.choose-us-title {
+  padding-bottom: 50px;
+}
+
+.choose-us-title h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  position: relative;
+}
+
+.choose-us-title h2::after {
+  content: "";
+  background-color: #129CF3;
+  width: 70px;
+  height: 1px;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+}
+
+.choose-us-title p {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.choose-us-item {
+  position: relative;
+  padding-bottom: 4px;
+  padding-left: 80px;
+}
+
+.choose-us-item-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.choose-us-item-icon i {
+  font-size: 55px;
+  color: #129CF3;
+}
+
+.choose-us-item h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  color: #343434;
+}
+
+.choose-us-item p {
+  font-size: 15px;
+  color: #727272;
 }
