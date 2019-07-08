@@ -266,3 +266,79 @@ p {
   font-size: 18px;
   line-height: 27px;
 }
+
+/* ============== Feature ============== */
+.left-feature-item {
+  position: relative;
+  margin: 35px 0 65px 0;
+  padding-right: 90px;
+  text-align: right;
+}
+
+.left-feature-item-icon {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  color: #129CF3;
+  font-size: 40px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+.left-feature-item-content h3 {
+  text-transform: uppercase;
+  margin-bottom: 21px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #333;
+}
+
+.left-feature-item-content p {
+  line-height: 25px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.feature-iphone img {
+  width: 100%;
+}
+
+.feature-iphone img {
+  width: 100%;
+}
+
+.right-feature-item {
+  position: relative;
+  text-align: left;
+  padding-left: 90px;
+  margin-top: 35px;
+  margin-bottom: 65px;
+}
+
+.right-feature-item-icon {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+  color: #129CF3;
+}
+
+.right-feature-item-content h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+
+.right-feature-item-content p {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+}
