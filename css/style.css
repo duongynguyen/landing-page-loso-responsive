@@ -342,3 +342,76 @@ p {
   font-weight: 300;
   color: #333;
 }
+
+/* ============== Purchase Now ============== */
+.purchase-now {
+  background-color: #1a1a1a;
+  padding: 100px 0;
+}
+
+.purchase-now p {
+  color: #dfdfdf;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:visited,
+.btn-purchase-now:focus
+{
+  background-color: #129CF3;
+  padding: 15px 35px;
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border: 1px solid #129CF3;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.btn-purchase-now:hover {
+  background-color: #1274B1;
+  border-color: #316B90;
+}
+
+/* ============== Counters ============== */
+.counter {
+  background-image: url('../images/counter-bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.counter-overlay {
+  padding: 120px 0;
+  background: rgba(0, 0, 0, .4);
+}
+
+.counter-item i {
+  color: #129CF3;
+  font-size: 60px;
+}
+
+.counter-item h2, .counter-item p{
+  color: #D7DADB;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+}
+
+.counter-item h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 15px 0 1px;
+}
+
+.counter-item p {
+  font-size: 20px;
+  font-weight: 300;
+}
