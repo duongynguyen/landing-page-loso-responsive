@@ -415,3 +415,87 @@ p {
   font-size: 20px;
   font-weight: 300;
 }
+
+/* ============== Download Now ============== */
+.download-now img {
+  width: 100%;
+}
+
+.available-on {
+  background-color: #1A1A1A;
+  margin-top: -8px;
+  position: relative;
+}
+
+.available-title {
+  padding-top: 75px;
+}
+
+.available-title h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.available-title p {
+  color: #B5B5B5;
+}
+
+.no-padding {padding-left: 0;padding-right: 0;}
+
+.available-on-item {
+  position: relative;
+  text-align: center;
+  border-left: 1px solid #0F1217;
+  padding-bottom: 15px;
+  min-height: 230px;
+  transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.available-on-item i {
+  font-size: 40px;
+}
+
+.available-on-item i {
+  color: #129CF3;
+  text-align: center;
+  opacity: 1;
+  font-size: 40px;
+  padding-top: 95px;
+  transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.available-on-inner {
+  position: absolute;
+  bottom: 95px;
+  width: 100%;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  opacity: 0;
+}
+
+.available-on-inner h2 {
+  text-align: center;
+  color: #D7DADB;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.available-on-item:hover {
+  background-color: #121212;
+}
+
+.available-on-item:hover i {
+  opacity: 0;
+}
+
+.available-on-item:hover .available-on-inner {
+  opacity: 1;
+}
