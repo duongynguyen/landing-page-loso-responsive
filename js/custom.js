@@ -118,3 +118,11 @@ $(document).ready(function() {
     slideMargin: 50
   });
 });
+
+/* Add counter up */
+$(document).ready(function() {
+  $('.counter-number').counterUp({
+    delay: 10,
+    time: 2000
+  });
+});
